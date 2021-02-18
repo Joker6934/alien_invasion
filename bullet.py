@@ -11,8 +11,8 @@ class Bullet(Sprite):
         self.screen = ai_game.screen
         self.settings = ai_game.settings
         # 子弹颜色和大小
-        self.color = (0, 255, 64)
-        self.bullet_width = 3
+        self.color = (255, 128, 192)
+        self.bullet_width = 3000
         self.bullet_height = 15
 
         # 在（0，0）处创建一个表示子弹的矩形，在设置正确的位置
